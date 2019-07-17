@@ -25,10 +25,12 @@ nav{
     overflow: auto;
     z-index: 6;
     transition: 0.4s;
-    transform: translateX(-10rem);
+    transform: translate(-10rem, -5rem);
+    /* transform: translateY(-1rem); */
 }
 .nav-trans{
-    transform: translateX(0rem);
+    transform: translate(0rem, 0rem);
+    
 }
 nav ul{
     list-style-type: none;
