@@ -200,10 +200,10 @@ footer{
         overflow: auto;
         z-index: 2;
         transition: 0.4s;
-        transform: translateX(-10rem);
+        transform: translateX(-10rem, 5rem);
     }
     .nav-trans{
-        transform: translateX(0rem);
+        transform: translateX(0, 0);
     }
     }
     nav a{
