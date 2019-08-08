@@ -1,0 +1,42 @@
+nav{
+    display: flex;
+}
+nav a{
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.651);
+    display: block;
+    margin: 2px 5px;
+    position: relative;
+    width: fit-content;
+
+}
+nav a:after{
+    content: '';
+    background-color: red;
+    position: absolute;
+    height: 2px; width: 0%;  
+    bottom: 0;
+    left: 50%;
+    transition: 0.4s;
+    visibility: hidden; opacity: 0;
+}
+nav a:hover:after{
+    
+    height: 2px; width: 50%;  
+    visibility: visible; opacity: 1;
+}
+nav a::before{
+    content: '';
+    background-color: red;
+    position: absolute;
+    height: 2px; width: 0%;  
+    bottom: 0;
+    right: 50%;
+    transition: 0.4s;
+    visibility: hidden; opacity: 0;
+}
+nav a:hover::before{
+    
+    height: 2px; width: 50%;  
+    visibility: visible; opacity: 1;
+}
